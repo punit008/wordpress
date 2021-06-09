@@ -33,7 +33,8 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
 					$this->enabled            = "yes"; // This can be added as an setting but for this example its forced enabled
 					$this->title              = "Punit Shipping Method"; // This can be added as an setting but for this example its forced.
 					$this->supports = array(
-						'shipping-zones'
+						'shipping-zones',
+						'settings'
 					);
 
 					$this->init();
